@@ -1,0 +1,357 @@
+.fb_link {
+    color: #fd7e14;
+    text-decoration: underline !important;
+    background-color: transparent;
+}
+
+.fb_link:link {
+    color: #fd7e14;
+    background-color: transparent;
+    text-decoration: underline !important;
+}
+
+.fb_link:visited {
+    color: #fd7e14;
+    background-color: transparent;
+    text-decoration: underline !important;
+}
+
+.fb_link:hover {
+    color: #fd7e14;
+    background-color: transparent;
+    text-decoration: underline !important;
+}
+
+.fb_link:active {
+    color: #fd7e14;
+    background-color: transparent;
+    text-decoration: underline !important;
+}
+
+.blog-card {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    color: black;
+    box-shadow: 0 0.1875rem 1.5rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.375rem;
+    overflow: hidden;
+    width: 100%;
+    margin: 10px;
+}
+
+.card-link {
+    position: relative;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.card-link+.card-link {
+    margin-left: 0;
+}
+
+.card-link:hover .post-title {
+    transition: color 0.3s ease;
+    color: #e04f62;
+}
+
+.card-link:hover .post-image {
+    transition: opacity 0.3s ease;
+    opacity: 0.9;
+}
+
+.link-box {
+    width: 100%;
+    margin-right: 20px;
+}
+
+
+/* 
+.link-box:hover span {
+    visibility: visible;
+    opacity: 1;
+} */
+
+.link-box span {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transition effect. not necessary */
+    /* transition: opacity .2s, visibility .2s; */
+}
+
+.post-image {
+    transition: opacity 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.article-details {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.post-image1 {
+    background: url(https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2021/08/27/1/13609066.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 480px;
+    height: 288px;
+}
+
+.post-image2 {
+    background: url(https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2020/01/20/1/7359307.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 480px;
+    height: 288px;
+}
+
+.post-image3 {
+    background: url(https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2021/06/22/1/12639774.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 480px;
+    height: 288px;
+}
+
+.company .container {
+    width: 90vw;
+}
+
+.company .col {
+    margin: 20px;
+    margin-top: 100px;
+}
+
+
+/* .company .row{
+          margin-top:100px;
+        } */
+
+.company img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 150px;
+    border-radius: 50%;
+}
+
+@media(max-width:1440px) {
+    .post-image1 {
+        width: 360px;
+        height: 216px;
+    }
+    .post-image2 {
+        width: 360px;
+        height: 216px;
+    }
+    .post-image3 {
+        width: 360px;
+        height: 216px;
+    }
+    .link-box {
+        width: 100%;
+        margin-top: 0.7vh;
+        margin-bottom: 0.7vh;
+    }
+}
+
+.link-box span {
+    font-size: 28px;
+}
+
+.post-image {
+    transition: opacity 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-image span {
+    padding: 50px 25px 50px 25px;
+}
+
+@media (min-width:300px) {
+    .post-image1 {
+        width: 280px;
+        height: 186px;
+    }
+    .post-image2 {
+        width: 280px;
+        height: 186px;
+    }
+    .post-image3 {
+        width: 280px;
+        height: 186px;
+    }
+}
+
+@media (min-width:425px) {
+    .post-image1 {
+        width: 330px;
+        height: 220px;
+    }
+    .post-image2 {
+        width: 330px;
+        height: 220px;
+    }
+    .post-image3 {
+        width: 330px;
+        height: 220px;
+    }
+}
+
+@media (min-width:768px) {
+    .post-image1 {
+        width: 300px;
+        height: 200px;
+    }
+    .post-image2 {
+        width: 300px;
+        height: 200px;
+    }
+    .post-image3 {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (min-width:1024px) {
+    .post-image1 {
+        width: 300px;
+        height: 200px;
+    }
+    .post-image2 {
+        width: 300px;
+        height: 200px;
+    }
+    .post-image3 {
+        width: 300px;
+        height: 200px;
+    }
+    .link-box span {
+        font-size: 24px;
+    }
+}
+
+@media (min-width:1440px) {
+    .post-image1 {
+        width: 365px;
+        height: 243px;
+    }
+    .post-image2 {
+        width: 365px;
+        height: 243px;
+    }
+    .post-image3 {
+        width: 365px;
+        height: 243px;
+    }
+}
+
+@media (min-width:1920px) {
+    .post-image1 {
+        width: 510px;
+        height: 340px;
+    }
+    .post-image2 {
+        width: 510px;
+        height: 340px;
+    }
+    .post-image3 {
+        width: 510px;
+        height: 340px;
+    }
+}
+
+@media (max-width:1024px) {
+    .link-box span {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:768) {}
+
+@media (max-width:475px) {
+    .company .container {
+        width: 100%;
+    }
+    .company .col {
+        margin-top: 50px;
+    }
+    .company img {
+        height: 80px;
+        border-radius: 50%;
+    }
+    .link-box {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.post-category {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.0625rem;
+    margin: 0 0 0.75rem 0;
+    padding: 0 0 0.25rem 0;
+    border-bottom: 0.125rem solid #ebebeb;
+}
+
+.post-title {
+    transition: color 0.3s ease;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    color: #121212;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+}
+
+.post-description {
+    font-size: 10px;
+}
+
+.post-author {
+    font-size: 0.875rem;
+    line-height: 1;
+    margin: 1.125rem 0 0 0;
+    padding: 1.125rem 0 0 0;
+    border-top: 0.0625rem solid #ebebeb;
+}
+
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 40rem) {
+    .blog-card {
+        flex-wrap: wrap;
+    }
+}
